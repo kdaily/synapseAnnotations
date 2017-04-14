@@ -1,0 +1,221 @@
+Welcome, Kristen Dang!
+
+[
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "ligand"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "ligandDose"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "inhibitor"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "inhibitorDose"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "overExpressedProtein"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "mutant"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "antibody"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "stiffness"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "compoundName"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "compoundID"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "compoudDose"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "assayTarget"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "citation"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "experimentNumber"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "principalInvestigator"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "PIInstitution"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "contactPerson"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "contactEmail"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "preservationMethod"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "stableCellLine"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "transientCellLine"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "imageNumber"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "chartNumber"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "protein"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "phosphoSite"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "bandIntensity"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "normalizedIntensity"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "viability"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "cellMigration"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "dataQuality"
+  }, 
+  {
+    "enumValues": [], 
+    "columnType": "STRING", 
+    "description": "", 
+    "maximumSize": 50, 
+    "name": "assayQuality"
+  }
+]

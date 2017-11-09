@@ -1,610 +1,591 @@
 [
   {
-    "name": "BrodmannArea", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": []
-  }, 
-  {
-    "name": "group", 
+    "name": "assemblyMethod", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "MSSM", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Yale", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "LIBD", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UCLA", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UIC-UChicago", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Duke", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UNC", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UCSF", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "USC", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "GIS", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "JHU", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Emory", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Broad-Rush", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UFL-Mayo-ISB", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Myers-NIAGADS", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Harvard-MIT", 
+        "value": "velvet", 
         "description": "", 
         "source": ""
       }
     ]
   }, 
   {
-    "name": "grant", 
+    "name": "regressionMethod", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "U01MH103339", 
+        "value": "fixedEffect", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "U01MH103392", 
+        "value": "randomEffect", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "U01MH103346", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "U01MH103340", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "U01MH103365", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R01MH094714", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R21MH105881", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R01MH105472", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R21MH102791", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R21MH103877", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R01MH105898", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "P50MH106934", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "U01AG046152", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "U01AG046170", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "U01AG046139", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "U01AG046161", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "5R01AG046174", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R01AG046171", 
+        "value": "mixedEffect", 
         "description": "", 
         "source": ""
       }
     ]
   }, 
   {
-    "name": "assayTarget", 
+    "name": "batchEffectCorrectionMethod", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "H3K9me3", 
+        "value": "COMBAT", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "H3K4me3", 
+        "value": "SVA", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "H3K4me1", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "H3K27ac", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "H3K36me3", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "H3K27me3", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "H3K9ac", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "REST", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "CTCF", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "input", 
+        "value": "PCA", 
         "description": "", 
         "source": ""
       }
     ]
   }, 
   {
-    "name": "study", 
+    "name": "clusteringMethod", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "CMC", 
+        "value": "hierarchicalClustering", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "EpiMap", 
+        "value": "kMeans", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "CNON", 
+        "value": "WGCNA", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "MouseHAL", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "WGBS Pilot", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "lncRNA Pilot", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "BrainGVEX", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UCLA-ASD", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "iPSC", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "HumanFC", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "EpiGABA", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "NHP", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Yale-ASD", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "BipSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "ACT", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "BLSA", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "HBTRC", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "MSBB", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "ROSMAP", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "MayoLOADGwas", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "MayoEGWAS", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "MayoPilot", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "IL10", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Emory", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "TAUAPPms", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "sampleSwap", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "MayoRNAseq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "BroadMDMi", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "BroadiPSC", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "MSDM", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "OFMM", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Lilly_microgliaRNAseq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UPenn", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "SY5Y_REST", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "MSSMiPSC", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "TyrobpKO", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "MSSMiPSCMicroglia", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "BroadAstrom109", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Banner", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "EmoryDrosophilaTau", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "WallOfTargets", 
+        "value": "principalComponentAnalysis", 
         "description": "", 
         "source": ""
       }
     ]
   }, 
   {
-    "name": "PMI", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": []
-  }, 
-  {
-    "name": "fileSubFormat", 
+    "name": "somaticMutationCallingMethod", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "TranscriptomeSAM", 
+        "value": "varDict", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "SortedByCoordinate", 
+        "value": "varDict2", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "mutect", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "varScan", 
         "description": "", 
         "source": ""
       }
     ]
   }, 
   {
-    "name": "hemisphere", 
+    "name": "multipleTestingAdjustmentMethod", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "left", 
+        "value": "BenjaminiHochberg", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "right", 
+        "value": "Bonferroni", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "BenjaminiYekutieli", 
         "description": "", 
         "source": ""
       }
     ]
   }, 
   {
-    "name": "treatmentType", 
+    "name": "peakCallingMethod", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "haloperidol", 
+        "value": "MACS", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "placebo", 
+        "value": "MACS2", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "GEM", 
         "description": "", 
         "source": ""
       }
     ]
   }, 
   {
-    "name": "pH", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": []
-  }, 
-  {
-    "name": "modelSystemName", 
+    "name": "transcriptQuantificationMethod", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "TREM2", 
+        "value": "kallisto", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "TYROBP", 
+        "value": "RSEM", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "AB42", 
+        "value": "featureCounts", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "CRND8", 
+        "value": "DESeq2", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "statisticalNetworkReconstructionMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "WGCNA", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "APPPS1", 
+        "value": "sparrow", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "MAPT-P301K", 
+        "value": "lasso", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "rTg4510", 
+        "value": "ridge", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "APPE693Q", 
+        "value": "genie3", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "APPKM650", 
+        "value": "tigress", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "APPKM670", 
+        "value": "aracne", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "APPKM670-671NL-PSEN1deltaexon9", 
+        "value": "mrnet", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "TYROBP_WT", 
+        "value": "c3net", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "TYROBP_WT.KO", 
+        "value": "MEGENA", 
+        "description": "", 
+        "source": ""
+      },
+      {
+        "value": "WINA", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "differentialExpressionMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "limma", 
         "description": "", 
         "source": ""
       }, 
       {
-        "value": "TYROBP_KO.KO", 
+        "value": "sleuth", 
         "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "cuffDiff", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "alignmentMethod", 
+    "description": "DNA or RNA sequence alignement method", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "BWA", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "bowtie", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "bowtie2", 
+        "description": "", 
+        "source": ""
+      },
+      {
+        "value": "SNAPR", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "GSNAP", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "topHat", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "mosaic", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "novoAlign", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "olego", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "validationMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "sequenceValidation", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "targetValidation", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "CRISPR-CAS9", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "RNAi", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "shRNA", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "enrichmentMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "fishersExactTest", 
+        "description": "", 
+        "source": ""
+      },
+      {
+        "value": "DAVID", 
+        "description": "All tools in the DAVID Bioinformatics Resources aim to provide functional interpretation of large lists of genes derived from genomic studies.", 
+        "source": "https://david.ncifcrf.gov"
+      }
+    ]
+  }, 
+  {
+    "name": "analysisType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "genotypeImputation", 
+        "description": "The statistical inference of unobserved genotypes", 
+        "source": ""
+      }, 
+      {
+        "value": "statisticalNetworkReconstruction", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "differentialExpression", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "expressionQuantitativeTraitLociDetection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "outlierDetection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "covariateAssociation", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "hiddenConfounderDetection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "differentialNetwork", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "methylationQuantitativeTraitLociDetection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "networkDriverDetection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "principalComponents", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "genomeWideAssociation", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "clustering", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "supervisedLearning", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "batchEffectCorrection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "anova", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "variancePartition", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "moduleIdentification", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "visualization", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "transcriptQuantification", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "somaticMutationCalling", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "peakCalling", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "visualisationMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "scatterPlot", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "heatMap", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "barChart", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "supervisedLearningMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "penalizedLogisticRegression", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "penalizedLinearRegression", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "randomForest", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "supportVectorMachine", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "deepLearning", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "boosting", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "bagging", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "naiveBayes", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "GaussianProcessRegression", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  },
+    {
+    "name": "isGenomewideNetwork", 
+    "description": "Boolean flag indicating whether or not it is a full network or single module(s)", 
+    "columnType": "BOOLEAN", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": true,
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": false,
+        "description": "",
         "source": ""
       }
     ]

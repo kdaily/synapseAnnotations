@@ -224,6 +224,11 @@
         "value": "chromatinActivity",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "mathematical model",
+        "description":"Description of a system using mathematical concepts and language. The model is composed of a set of variables and a set of equations that establish relationships between the variables.",
+        "source":"http://identifiers.org/mamo/MAMO_0000003"
       }
     ]
   },
@@ -277,6 +282,11 @@
         "value": "protein-protein interaction network",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "mathematical model",
+        "description":"Description of a system using mathematical concepts and language. The model is composed of a set of variables and a set of equations that establish relationships between the variables.",
+        "source":"http://identifiers.org/mamo/MAMO_0000003"
       }
     ]
   }

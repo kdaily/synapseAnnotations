@@ -229,6 +229,11 @@
         "value": "mathematical model",
         "description":"Description of a system using mathematical concepts and language. The model is composed of a set of variables and a set of equations that establish relationships between the variables.",
         "source":"http://identifiers.org/mamo/MAMO_0000003"
+      },
+      {
+        "value": "Pathway",
+        "description" : "A set or series of interactions, often forming a network, which biologists have found useful to group together for organizational, historic, biophysical, or other reasons.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C54214"
       }
     ]
   },
@@ -283,6 +288,11 @@
         "description": "",
         "source": ""
       },
+      {
+        "value": "Pathway",
+        "description" : "A set or series of interactions, often forming a network, which biologists have found useful to group together for organizational, historic, biophysical, or other reasons.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C54214"
+      }
       {
         "value": "mathematical model",
         "description":"Description of a system using mathematical concepts and language. The model is composed of a set of variables and a set of equations that establish relationships between the variables.",
